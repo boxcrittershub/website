@@ -1,0 +1,421 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 04:10:33
+* VERSION: 1.3.36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.10                                |7.4.9
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2020-09-20 04:07:44
+WP VERSION__________: 5.5.1
+DUP VERSION_________: 1.3.36
+DB__________________: 10.1.44
+DB TABLES___________: 13
+DB ROWS_____________: 515
+DB FILE SIZE________: 4.3MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.9 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.46 (Win64) PHP/7.4.9
+DOC ROOT____________: "C:/wamp64/www/website"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/website/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/wamp64/www/website/20200920_boxcrittershub_[HASH]_20200920040744_archive.zip"
+SIZE________________: 42.7MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/wamp64/www/website/20200920_boxcrittershub_[HASH]_20200920040744_archive.zip"
+SIZE________________: 42.7MBFile timestamp set to Current: 2020-09-20 04:11:29
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 04:11:29 - RUNTIME: 56.4353 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 04:14:12
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.31 -- Build Server: 10.1.44
+FILE SIZE:	dup-database__[HASH].sql (2.46MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER
+NEW SQL FILE:	[C:/wamp64/www/website/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.31] is less than the build version [10.1.44].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:C:\wamp64\www\website\dup-installer\ctrls\ctrl.s2.dbinstall.php|LINE:392]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	127
+
+76thf_commentmeta: (0)
+76thf_comments: (1)
+76thf_duplicator_packages: (0)
+76thf_links: (0)
+76thf_options: (181)
+76thf_postmeta: (192)
+76thf_posts: (61)
+76thf_term_relationships: (6)
+76thf_term_taxonomy: (4)
+76thf_termmeta: (0)
+76thf_terms: (4)
+76thf_usermeta: (29)
+76thf_users: (1)
+Removed '47' cache/transient rows
+
+INSERT DATA RUNTIME: 0.8765 sec.
+STEP-2 COMPLETE @ 04:14:13 - RUNTIME: 0.8861 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+htaccess ark file don' exists
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 04:14:46
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Box Critters Hub"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/var/www/vhosts/boxcrittershub.com/httpdocs"
+path_new______________: "C:/wamp64/www/website"
+siteurl_______________: "http://localhost/website"
+url_old_______________: "https://boxcrittershub.com"
+url_new_______________: "http://localhost/website"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "76thf_commentmeta"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "76thf_comments"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/boxcrittershub.com/httpdocs" =====> "C:/wamp64/www/website"
+	SEARCH  2:"\/var\/www\/vhosts\/boxcrittershub.com\/httpdocs" => "C:\/wamp64\/www\/website"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fboxcrittershub.com%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2Fwebsite"
+	SEARCH  4:"\var\www\vhosts\boxcrittershub.com\httpdocs" =====> "C:/wamp64/www/website"
+	SEARCH  5:"\\var\\www\\vhosts\\boxcrittershub.com\\httpdocs" => "C:\/wamp64\/www\/website"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cboxcrittershub.com%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2Fwebsite"
+	SEARCH  7:"//boxcrittershub.com" ============================> "//localhost/website"
+	SEARCH  8:"\/\/boxcrittershub.com" ==========================> "\/\/localhost\/website"
+	SEARCH  9:"%2F%2Fboxcrittershub.com" ========================> "%2F%2Flocalhost%2Fwebsite"
+	SEARCH 10:"//www.boxcrittershub.com" ========================> "//localhost/website"
+	SEARCH 11:"\/\/www.boxcrittershub.com" ======================> "\/\/localhost\/website"
+	SEARCH 12:"%2F%2Fwww.boxcrittershub.com" ====================> "%2F%2Flocalhost%2Fwebsite"
+	SEARCH 13:"https://localhost/website" =======================> "http://localhost/website"
+	SEARCH 14:"https:\/\/localhost\/website" ====================> "http:\/\/localhost\/website"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fwebsite" ===============> "http%3A%2F%2Flocalhost%2Fwebsite"
+
+EVALUATE TABLE: "76thf_duplicator_packages"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "76thf_links"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "76thf_options"___________________________________[ROWS:   181][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/boxcrittershub.com/httpdocs" =====> "C:/wamp64/www/website"
+	SEARCH  2:"\/var\/www\/vhosts\/boxcrittershub.com\/httpdocs" => "C:\/wamp64\/www\/website"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fboxcrittershub.com%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2Fwebsite"
+	SEARCH  4:"\var\www\vhosts\boxcrittershub.com\httpdocs" =====> "C:/wamp64/www/website"
+	SEARCH  5:"\\var\\www\\vhosts\\boxcrittershub.com\\httpdocs" => "C:\/wamp64\/www\/website"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cboxcrittershub.com%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2Fwebsite"
+	SEARCH  7:"//boxcrittershub.com" ============================> "//localhost/website"
+	SEARCH  8:"\/\/boxcrittershub.com" ==========================> "\/\/localhost\/website"
+	SEARCH  9:"%2F%2Fboxcrittershub.com" ========================> "%2F%2Flocalhost%2Fwebsite"
+	SEARCH 10:"//www.boxcrittershub.com" ========================> "//localhost/website"
+	SEARCH 11:"\/\/www.boxcrittershub.com" ======================> "\/\/localhost\/website"
+	SEARCH 12:"%2F%2Fwww.boxcrittershub.com" ====================> "%2F%2Flocalhost%2Fwebsite"
+	SEARCH 13:"https://localhost/website" =======================> "http://localhost/website"
+	SEARCH 14:"https:\/\/localhost\/website" ====================> "http:\/\/localhost\/website"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fwebsite" ===============> "http%3A%2F%2Flocalhost%2Fwebsite"
+
+EVALUATE TABLE: "76thf_postmeta"__________________________________[ROWS:   192][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/boxcrittershub.com/httpdocs" =====> "C:/wamp64/www/website"
+	SEARCH  2:"\/var\/www\/vhosts\/boxcrittershub.com\/httpdocs" => "C:\/wamp64\/www\/website"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fboxcrittershub.com%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2Fwebsite"
+	SEARCH  4:"\var\www\vhosts\boxcrittershub.com\httpdocs" =====> "C:/wamp64/www/website"
+	SEARCH  5:"\\var\\www\\vhosts\\boxcrittershub.com\\httpdocs" => "C:\/wamp64\/www\/website"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cboxcrittershub.com%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2Fwebsite"
+	SEARCH  7:"//boxcrittershub.com" ============================> "//localhost/website"
+	SEARCH  8:"\/\/boxcrittershub.com" ==========================> "\/\/localhost\/website"
+	SEARCH  9:"%2F%2Fboxcrittershub.com" ========================> "%2F%2Flocalhost%2Fwebsite"
+	SEARCH 10:"//www.boxcrittershub.com" ========================> "//localhost/website"
+	SEARCH 11:"\/\/www.boxcrittershub.com" ======================> "\/\/localhost\/website"
+	SEARCH 12:"%2F%2Fwww.boxcrittershub.com" ====================> "%2F%2Flocalhost%2Fwebsite"
+	SEARCH 13:"https://localhost/website" =======================> "http://localhost/website"
+	SEARCH 14:"https:\/\/localhost\/website" ====================> "http:\/\/localhost\/website"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fwebsite" ===============> "http%3A%2F%2Flocalhost%2Fwebsite"
+
+EVALUATE TABLE: "76thf_posts"_____________________________________[ROWS:    61][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/boxcrittershub.com/httpdocs" =====> "C:/wamp64/www/website"
+	SEARCH  2:"\/var\/www\/vhosts\/boxcrittershub.com\/httpdocs" => "C:\/wamp64\/www\/website"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fboxcrittershub.com%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2Fwebsite"
+	SEARCH  4:"\var\www\vhosts\boxcrittershub.com\httpdocs" =====> "C:/wamp64/www/website"
+	SEARCH  5:"\\var\\www\\vhosts\\boxcrittershub.com\\httpdocs" => "C:\/wamp64\/www\/website"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cboxcrittershub.com%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2Fwebsite"
+	SEARCH  7:"//boxcrittershub.com" ============================> "//localhost/website"
+	SEARCH  8:"\/\/boxcrittershub.com" ==========================> "\/\/localhost\/website"
+	SEARCH  9:"%2F%2Fboxcrittershub.com" ========================> "%2F%2Flocalhost%2Fwebsite"
+	SEARCH 10:"//www.boxcrittershub.com" ========================> "//localhost/website"
+	SEARCH 11:"\/\/www.boxcrittershub.com" ======================> "\/\/localhost\/website"
+	SEARCH 12:"%2F%2Fwww.boxcrittershub.com" ====================> "%2F%2Flocalhost%2Fwebsite"
+	SEARCH 13:"https://localhost/website" =======================> "http://localhost/website"
+	SEARCH 14:"https:\/\/localhost\/website" ====================> "http:\/\/localhost\/website"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fwebsite" ===============> "http%3A%2F%2Flocalhost%2Fwebsite"
+
+EVALUATE TABLE: "76thf_term_relationships"________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/boxcrittershub.com/httpdocs" =====> "C:/wamp64/www/website"
+	SEARCH  2:"\/var\/www\/vhosts\/boxcrittershub.com\/httpdocs" => "C:\/wamp64\/www\/website"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fboxcrittershub.com%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2Fwebsite"
+	SEARCH  4:"\var\www\vhosts\boxcrittershub.com\httpdocs" =====> "C:/wamp64/www/website"
+	SEARCH  5:"\\var\\www\\vhosts\\boxcrittershub.com\\httpdocs" => "C:\/wamp64\/www\/website"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cboxcrittershub.com%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2Fwebsite"
+	SEARCH  7:"//boxcrittershub.com" ============================> "//localhost/website"
+	SEARCH  8:"\/\/boxcrittershub.com" ==========================> "\/\/localhost\/website"
+	SEARCH  9:"%2F%2Fboxcrittershub.com" ========================> "%2F%2Flocalhost%2Fwebsite"
+	SEARCH 10:"//www.boxcrittershub.com" ========================> "//localhost/website"
+	SEARCH 11:"\/\/www.boxcrittershub.com" ======================> "\/\/localhost\/website"
+	SEARCH 12:"%2F%2Fwww.boxcrittershub.com" ====================> "%2F%2Flocalhost%2Fwebsite"
+	SEARCH 13:"https://localhost/website" =======================> "http://localhost/website"
+	SEARCH 14:"https:\/\/localhost\/website" ====================> "http:\/\/localhost\/website"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fwebsite" ===============> "http%3A%2F%2Flocalhost%2Fwebsite"
+
+EVALUATE TABLE: "76thf_term_taxonomy"_____________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/boxcrittershub.com/httpdocs" =====> "C:/wamp64/www/website"
+	SEARCH  2:"\/var\/www\/vhosts\/boxcrittershub.com\/httpdocs" => "C:\/wamp64\/www\/website"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fboxcrittershub.com%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2Fwebsite"
+	SEARCH  4:"\var\www\vhosts\boxcrittershub.com\httpdocs" =====> "C:/wamp64/www/website"
+	SEARCH  5:"\\var\\www\\vhosts\\boxcrittershub.com\\httpdocs" => "C:\/wamp64\/www\/website"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cboxcrittershub.com%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2Fwebsite"
+	SEARCH  7:"//boxcrittershub.com" ============================> "//localhost/website"
+	SEARCH  8:"\/\/boxcrittershub.com" ==========================> "\/\/localhost\/website"
+	SEARCH  9:"%2F%2Fboxcrittershub.com" ========================> "%2F%2Flocalhost%2Fwebsite"
+	SEARCH 10:"//www.boxcrittershub.com" ========================> "//localhost/website"
+	SEARCH 11:"\/\/www.boxcrittershub.com" ======================> "\/\/localhost\/website"
+	SEARCH 12:"%2F%2Fwww.boxcrittershub.com" ====================> "%2F%2Flocalhost%2Fwebsite"
+	SEARCH 13:"https://localhost/website" =======================> "http://localhost/website"
+	SEARCH 14:"https:\/\/localhost\/website" ====================> "http:\/\/localhost\/website"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fwebsite" ===============> "http%3A%2F%2Flocalhost%2Fwebsite"
+
+EVALUATE TABLE: "76thf_termmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "76thf_terms"_____________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/boxcrittershub.com/httpdocs" =====> "C:/wamp64/www/website"
+	SEARCH  2:"\/var\/www\/vhosts\/boxcrittershub.com\/httpdocs" => "C:\/wamp64\/www\/website"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fboxcrittershub.com%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2Fwebsite"
+	SEARCH  4:"\var\www\vhosts\boxcrittershub.com\httpdocs" =====> "C:/wamp64/www/website"
+	SEARCH  5:"\\var\\www\\vhosts\\boxcrittershub.com\\httpdocs" => "C:\/wamp64\/www\/website"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cboxcrittershub.com%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2Fwebsite"
+	SEARCH  7:"//boxcrittershub.com" ============================> "//localhost/website"
+	SEARCH  8:"\/\/boxcrittershub.com" ==========================> "\/\/localhost\/website"
+	SEARCH  9:"%2F%2Fboxcrittershub.com" ========================> "%2F%2Flocalhost%2Fwebsite"
+	SEARCH 10:"//www.boxcrittershub.com" ========================> "//localhost/website"
+	SEARCH 11:"\/\/www.boxcrittershub.com" ======================> "\/\/localhost\/website"
+	SEARCH 12:"%2F%2Fwww.boxcrittershub.com" ====================> "%2F%2Flocalhost%2Fwebsite"
+	SEARCH 13:"https://localhost/website" =======================> "http://localhost/website"
+	SEARCH 14:"https:\/\/localhost\/website" ====================> "http:\/\/localhost\/website"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fwebsite" ===============> "http%3A%2F%2Flocalhost%2Fwebsite"
+
+EVALUATE TABLE: "76thf_usermeta"__________________________________[ROWS:    29][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/boxcrittershub.com/httpdocs" =====> "C:/wamp64/www/website"
+	SEARCH  2:"\/var\/www\/vhosts\/boxcrittershub.com\/httpdocs" => "C:\/wamp64\/www\/website"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fboxcrittershub.com%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2Fwebsite"
+	SEARCH  4:"\var\www\vhosts\boxcrittershub.com\httpdocs" =====> "C:/wamp64/www/website"
+	SEARCH  5:"\\var\\www\\vhosts\\boxcrittershub.com\\httpdocs" => "C:\/wamp64\/www\/website"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cboxcrittershub.com%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2Fwebsite"
+	SEARCH  7:"//boxcrittershub.com" ============================> "//localhost/website"
+	SEARCH  8:"\/\/boxcrittershub.com" ==========================> "\/\/localhost\/website"
+	SEARCH  9:"%2F%2Fboxcrittershub.com" ========================> "%2F%2Flocalhost%2Fwebsite"
+	SEARCH 10:"//www.boxcrittershub.com" ========================> "//localhost/website"
+	SEARCH 11:"\/\/www.boxcrittershub.com" ======================> "\/\/localhost\/website"
+	SEARCH 12:"%2F%2Fwww.boxcrittershub.com" ====================> "%2F%2Flocalhost%2Fwebsite"
+	SEARCH 13:"https://localhost/website" =======================> "http://localhost/website"
+	SEARCH 14:"https:\/\/localhost\/website" ====================> "http:\/\/localhost\/website"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fwebsite" ===============> "http%3A%2F%2Flocalhost%2Fwebsite"
+
+EVALUATE TABLE: "76thf_users"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/vhosts/boxcrittershub.com/httpdocs" =====> "C:/wamp64/www/website"
+	SEARCH  2:"\/var\/www\/vhosts\/boxcrittershub.com\/httpdocs" => "C:\/wamp64\/www\/website"
+	SEARCH  3:"%2Fvar%2Fwww%2Fvhosts%2Fboxcrittershub.com%2Fhttpdocs" => "C%3A%2Fwamp64%2Fwww%2Fwebsite"
+	SEARCH  4:"\var\www\vhosts\boxcrittershub.com\httpdocs" =====> "C:/wamp64/www/website"
+	SEARCH  5:"\\var\\www\\vhosts\\boxcrittershub.com\\httpdocs" => "C:\/wamp64\/www\/website"
+	SEARCH  6:"%5Cvar%5Cwww%5Cvhosts%5Cboxcrittershub.com%5Chttpdocs" => "C%3A%2Fwamp64%2Fwww%2Fwebsite"
+	SEARCH  7:"//boxcrittershub.com" ============================> "//localhost/website"
+	SEARCH  8:"\/\/boxcrittershub.com" ==========================> "\/\/localhost\/website"
+	SEARCH  9:"%2F%2Fboxcrittershub.com" ========================> "%2F%2Flocalhost%2Fwebsite"
+	SEARCH 10:"//www.boxcrittershub.com" ========================> "//localhost/website"
+	SEARCH 11:"\/\/www.boxcrittershub.com" ======================> "\/\/localhost\/website"
+	SEARCH 12:"%2F%2Fwww.boxcrittershub.com" ====================> "%2F%2Flocalhost%2Fwebsite"
+	SEARCH 13:"https://localhost/website" =======================> "http://localhost/website"
+	SEARCH 14:"https:\/\/localhost\/website" ====================> "http:\/\/localhost\/website"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2Fwebsite" ===============> "http%3A%2F%2Flocalhost%2Fwebsite"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:479 	|	 Cells:3094 
+UPDATED:	Tables:4 	|	 Rows:84 	|	 Cells:106 
+ERRORS:		0 
+RUNTIME:	0.138700 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	REMOVED WP_ALLOW_MULTISITE
+	UPDATE DB_NAME ""website_db""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+[PHP ERR][WARN] MSG:file_get_contents(C:/wamp64/www/website/dup-installer/dup-orig-htaccess__[HASH].txt): failed to open stream: No such file or directory [CODE:2|FILE:C:\wamp64\www\website\dup-installer\classes\class.s3.func.php|LINE:1236]
+
+STEP-3 COMPLETE @ 04:14:47 - RUNTIME: 0.2639 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
